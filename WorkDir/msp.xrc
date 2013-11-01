@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="MyFrame1" subclass="MyScratchpad">
+		<style>wxDEFAULT_FRAME_STYLE|wxRESIZE_BORDER|wxTAB_TRAVERSAL</style>
+		<size>800,470</size>
+		<title>MyScratchpad(free version)</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="m_panel3">
+			<style>wxTAB_TRAVERSAL</style>
+			<bg>#d4d0c8</bg>
+			<object class="wxGridSizer">
+				<rows>0</rows>
+				<cols>2</cols>
+				<vgap>0</vgap>
+				<hgap>0</hgap>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxGridSizer">
+						<rows>0</rows>
+						<cols>0</cols>
+						<vgap>0</vgap>
+						<hgap>0</hgap>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxFlexGridSizer">
+								<rows>2</rows>
+								<cols>1</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<growablecols></growablecols>
+								<growablerows></growablerows>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxGridSizer">
+										<minsize>-1,100</minsize>
+										<rows>0</rows>
+										<cols>2</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxFlexGridSizer">
+												<rows>2</rows>
+												<cols>1</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols></growablecols>
+												<growablerows></growablerows>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxGridSizer">
+														<rows>0</rows>
+														<cols>2</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_CENTER_HORIZONTAL</flag>
+															<border>5</border>
+															<object class="wxButton" name="m_button7">
+																<size>50,-1</size>
+																<label>Search</label>
+																<default>0</default>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+															<border>5</border>
+															<object class="wxTextCtrl" name="search_ctrl">
+																<value></value>
+																<maxlength>0</maxlength>
+															</object>
+														</object>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL|wxEXPAND</flag>
+													<border>5</border>
+                                                    <style>wxLB_MULTIPLE</style>
+													<object class="wxListBox" name="m_listBox1">
+														<size>-1,90</size>
+														<content />
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxGridSizer">
+												<rows>2</rows>
+												<cols>1</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxGridSizer">
+														<rows>1</rows>
+														<cols>2</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<object class="spacer">
+															<option>1</option>
+															<flag>wxEXPAND</flag>
+															<border>5</border>
+															<size>0,0</size>
+														</object>
+														<object class="sizeritem">
+															<option>1</option>
+															<flag>wxEXPAND</flag>
+															<border>5</border>
+															<object class="wxGridSizer">
+																<rows>2</rows>
+																<cols>1</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALIGN_RIGHT|wxTOP|wxBOTTOM|wxLEFT</flag>
+																	<border>5</border>
+																	<object class="wxButton" name="m_button22">
+																		<label>Edit section</label>
+																		<default>0</default>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALIGN_RIGHT|wxTOP|wxBOTTOM|wxLEFT</flag>
+																	<border>5</border>
+																	<object class="wxButton" name="m_button23">
+																		<label>Delete section</label>
+																		<default>0</default>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxGridSizer">
+														<rows>2</rows>
+														<cols>1</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_BOTTOM|wxALIGN_RIGHT</flag>
+															<border>5</border>
+															<object class="wxHyperlinkCtrl" name="m_hyperlink1">
+																<label>How move note to another section?</label>
+																<url></url>
+																<style>wxHL_DEFAULT_STYLE</style>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>1</option>
+															<flag>wxEXPAND</flag>
+															<border>5</border>
+															<object class="wxGridSizer">
+																<rows>1</rows>
+																<cols>2</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_BOTTOM|wxALIGN_RIGHT</flag>
+																	<border>5</border>
+																	<object class="wxButton" name="m_button20">
+																		<label>Delete note</label>
+																		<default>0</default>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_BOTTOM|wxALIGN_CENTER_HORIZONTAL</flag>
+																	<border>5</border>
+																	<object class="wxButton" name="m_button21">
+																		<label>Edit note</label>
+																		<default>0</default>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxGridSizer">
+										<minsize>-1,290</minsize>
+										<rows>1</rows>
+										<cols>1</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxALL|wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxChoicebook" name="m_choicebook3">
+												<style>wxCHB_DEFAULT</style>
+												<bg>#ffffe1</bg>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxEXPAND</flag>
+					<border>5</border>
+					<object class="wxGridSizer">
+						<rows>2</rows>
+						<cols>1</cols>
+						<vgap>0</vgap>
+						<hgap>0</hgap>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxGridSizer">
+								<rows>1</rows>
+								<cols>2</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxTreeCtrl" name="m_treeCtrl">
+										<style>wxTR_DEFAULT_STYLE</style>
+										<bg>#3399ff</bg>
+										<font>
+											<family>roman</family>
+											<style>normal</style>
+											<weight>bold</weight>
+											<underlined>0</underlined>
+										</font>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxGridSizer">
+										<rows>5</rows>
+										<cols>1</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxFlexGridSizer">
+												<rows>2</rows>
+												<cols>1</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<growablecols></growablecols>
+												<growablerows></growablerows>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxGridSizer">
+														<rows>2</rows>
+														<cols>1</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_staticText1">
+																<label>You can add a new section</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>1</option>
+															<flag>wxEXPAND</flag>
+															<border>5</border>
+															<object class="wxGridSizer">
+																<rows>1</rows>
+																<cols>2</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="add_section_ctrl">
+																		<size>90,-1</size>
+																		<value></value>
+																		<maxlength>0</maxlength>
+																	</object>
+																</object>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_RIGHT</flag>
+																	<border>5</border>
+																	<object class="wxButton" name="add_section">
+																		<label>Save</label>
+																		<default>0</default>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxGridSizer">
+												<rows>1</rows>
+												<cols>1</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<object class="sizeritem">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<object class="wxGridSizer">
+														<rows>3</rows>
+														<cols>1</cols>
+														<vgap>0</vgap>
+														<hgap>0</hgap>
+														<object class="sizeritem">
+															<option>1</option>
+															<flag>wxEXPAND|wxALIGN_BOTTOM</flag>
+															<border>5</border>
+															<object class="wxGridSizer">
+																<rows>1</rows>
+																<cols>1</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_BOTTOM</flag>
+																	<border>5</border>
+																	<object class="wxStaticText" name="m_staticText2">
+																		<bg>#d4d0c8</bg>
+																		<fg>#000000</fg>
+																		<label>Complete the content of a new note</label>
+																		<wrap>-1</wrap>
+																	</object>
+																</object>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALL|wxALIGN_BOTTOM</flag>
+															<border>5</border>
+															<object class="wxStaticText" name="m_staticText7">
+																<label>Enter title a new note</label>
+																<wrap>-1</wrap>
+															</object>
+														</object>
+														<object class="sizeritem">
+															<option>0</option>
+															<flag>wxALIGN_BOTTOM</flag>
+															<border>5</border>
+															<object class="wxGridSizer">
+																<rows>0</rows>
+																<cols>2</cols>
+																<vgap>0</vgap>
+																<hgap>0</hgap>
+																<object class="sizeritem">
+																	<option>0</option>
+																	<flag>wxALL|wxALIGN_BOTTOM</flag>
+																	<border>5</border>
+																	<object class="wxTextCtrl" name="add_to_subvol">
+																		<value></value>
+																		<maxlength>0</maxlength>
+																	</object>
+																</object>
+															</object>
+														</object>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxGridSizer">
+								<rows>1</rows>
+								<cols>1</cols>
+								<vgap>0</vgap>
+								<hgap>0</hgap>
+								<object class="sizeritem">
+									<option>1</option>
+									<flag>wxEXPAND</flag>
+									<border>5</border>
+									<object class="wxFlexGridSizer">
+										<rows>3</rows>
+										<cols>1</cols>
+										<vgap>0</vgap>
+										<hgap>0</hgap>
+										<growablecols></growablecols>
+										<growablerows></growablerows>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALIGN_CENTER_HORIZONTAL|wxALIGN_BOTTOM|wxTOP|wxRIGHT|wxLEFT</flag>
+											<border>5</border>
+											<object class="wxStaticText" name="m_staticText5">
+												<label>Enter text for a new note</label>
+												<wrap>-1</wrap>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>0</option>
+											<flag>wxALL|wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxTextCtrl" name="m_textCtrl13">
+                                                <style>wxTE_MULTILINE|wxTE_RICH</style>
+												<size>375,130</size>
+												<value></value>
+											</object>
+										</object>
+										<object class="sizeritem">
+											<option>1</option>
+											<flag>wxALIGN_CENTER_VERTICAL|wxEXPAND</flag>
+											<border>5</border>
+											<object class="wxGridSizer">
+												<rows>0</rows>
+												<cols>8</cols>
+												<vgap>0</vgap>
+												<hgap>0</hgap>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALL</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_button15">
+														<size>30,18</size>
+														<label>Sepa</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="spacer">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<size>0,0</size>
+												</object>
+												<object class="spacer">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<size>0,0</size>
+												</object>
+												<object class="spacer">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<size>0,0</size>
+												</object>
+												<object class="spacer">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<size>0,0</size>
+												</object>
+												<object class="spacer">
+													<option>1</option>
+													<flag>wxEXPAND</flag>
+													<border>5</border>
+													<size>0,0</size>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM|wxRIGHT</flag>
+													<border>5</border>
+													<object class="wxButton" name="m_button16">
+														<size>40,-1</size>
+														<label>Clear</label>
+														<default>0</default>
+													</object>
+												</object>
+												<object class="sizeritem">
+													<option>0</option>
+													<flag>wxALIGN_CENTER_HORIZONTAL|wxTOP|wxBOTTOM|wxRIGHT</flag>
+													<border>5</border>
+													<object class="wxButton" name="add_new_note">
+														<size>60,-1</size>
+														<label>Save note</label>
+														<default>0</default>
+													</object>
+												</object>
+											</object>
+										</object>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="m_statusBar1">
+			<style>wxST_SIZEGRIP</style>
+			<bg>#ffffff</bg>
+			<fg>#ffffff</fg>
+			<fields>1</fields>
+		</object>
+		<!--<object class="wxMenuBar" name="m_menubar1">
+			<label>MyMenuBar</label>
+			<object class="wxMenu" name="File">
+				<label>File</label>
+				<object class="wxMenuItem" name="Load">
+					<label>Load\tCtrl-O</label>
+					<help></help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenu" name="Save">
+					<label>Save</label>
+					<object class="wxMenuItem" name="Savef">
+						<label>Save\tCtrl+S</label>
+						<help></help>
+					</object>
+					<object class="separator" />
+					<object class="wxMenuItem" name="Save_as">
+						<label>Save as\tCtrl-Shift+S</label>
+						<help></help>
+					</object>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="Exit">
+					<label>Exit\tAlt-F4</label>
+					<help></help>
+				</object>
+			</object>
+			<object class="wxMenu" name="Help">
+				<label>Help</label>
+				<object class="wxMenuItem" name="Tutorial">
+					<label>Tutorial\tF1</label>
+					<help></help>
+				</object>
+			</object>
+			<object class="wxMenu" name="About">
+				<label>About</label>
+				<object class="wxMenuItem" name="About_app">
+					<label>About app\tF2</label>
+					<help></help>
+				</object>
+			</object>
+		</object>-->
+	</object>
+</resource>
